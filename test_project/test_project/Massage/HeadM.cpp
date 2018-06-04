@@ -76,13 +76,5 @@ void HeadMassage:: SetSting20(char* _String20)
     char* buf=new char [strlen(_String20)];
     strcpy(buf, _String20);
     strcpy(String20, buf);
-    delete[] buf;
-//    if (_String20.size()<=strlen(this->String20))
-//    {
-//        for (int i=0;i<_String20.size();++i)
-//        {
-//            this->String20[i]=_String20[i];
-//        }
-//    }
-    
+    delete[] buf; 
 }
